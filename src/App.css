@@ -1,0 +1,37 @@
+.App {
+  background: #222;
+  color: whitesmoke;
+}
+.App-logo {
+  height: 80px;
+}
+.App-header {
+  background: url('bg.jpg');
+  background-size: cover; 
+  border-bottom: 1px solid #edec51;
+  color: white;
+  padding: 20px;
+  text-align:center;
+}
+.footer {
+  border-top: 1px solid #333;
+  padding: 17px; 
+  font-size: 8px; 
+}
+.help-block {
+  color: #bebebe;
+}
+.card {
+  background: rgba(21, 21, 21, .8);
+  color: whitesmoke;
+  cursor: pointer;
+  margin: 7px;    
+  padding: 10px;
+}
+.card:hover {
+  opacity: .7; 
+}
+#character-profile .card:hover {
+  opacity: 1;
+  cursor: auto;
+}
